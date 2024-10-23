@@ -41,7 +41,7 @@
             background-color: #f1f1f1;
         }
 
-        @media (max-width: 600px) {
+        @media (max-width: 400px) {
             th, td {
                 padding: 6px;
                 font-size: 10px;
