@@ -32,3 +32,11 @@ PENGUJIAN DARI CMD WINDOWS TANPA Postman
 4. SHOW
    curl -X GET "http://localhost:8000/api/dht11/1" -H "Content-Type: application/json"
 5. SHOW ALL
+
+CATATAN
+----------------------------------------
+Jika ingin akses laravel localhost:8000/api/dht11 dari komputer lain
+maka jalankan dengan perintah 
+php artisan serve --host 192.168.137.1 --port 8000
+localhost:8000 tidak dikenali dari komputer lain
+untuk mengetahui ip di atas dari windows cmd ketik perintah ipconfig
