@@ -42,3 +42,6 @@ localhost:8000 tidak dikenali dari komputer lain
 untuk mengetahui ip di atas dari windows cmd ketik perintah ipconfig
 
 Silahkan dicoba dari postman dengan ketik http://192.168.137.1:8000/api/dht11
+
+Jalankan Laravel dengan Bind ke Semua Interface php artisan serve --host=0.0.0.0 --port=8000 (optional)
+ini dijalankan dari terminal vscode, sementar php artisan serve --host 192.168.137.1 --port 8000 dijalankan diterminal
