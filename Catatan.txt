@@ -1,0 +1,34 @@
+TESTING
+--------
+INSTALL API TERLEBIH DAHULU PADA LARAVEL 11
+php artisan install:api
+use Laravel\Sanctum\HasApiTokens (tambahkan manual pada model user)
+php artisan migrate (enable)
+
+1. Pengujian dengan Postman
+    Pilih tab "Body", lalu pilih "raw" dan ubah tipe data menjadi JSON
+    {
+    "temperature": 30.5,
+    "humidity": 65.0
+    }
+2. di Postman method POST 
+   http://localhost:8000/api/dht11
+
+3. Untuk melakukannya, Anda bisa menambahkan middleware VerifyCsrfToken pada route di 
+    app/Http/Middleware/VerifyCsrfToken.php
+    protected $except = [
+        'dht11/store', // Tambahkan rute ini ke dalam array except
+    ];
+
+
+PENGUJIAN DARI CMD WINDOWS TANPA Postman
+----------------------------------------
+1. STORE
+   curl -X POST "http://localhost:8000/api/dht11" -H "Content-Type: application/json" -d "{\"temperature\": 25, \"humidity\": 70}"
+2. UDPATE
+   curl -X PATCH "http://localhost:8000/api/dht11/2" -H "Content-Type: application/json" -d "{\"temperature\": 29, \"humidity\": 65}"
+3. DELETE 
+   curl -X DELETE "http://localhost:8000/api/dht11/1" -H "Content-Type: application/json"
+4. SHOW
+   curl -X GET "http://localhost:8000/api/dht11/1" -H "Content-Type: application/json"
+5. SHOW ALL
