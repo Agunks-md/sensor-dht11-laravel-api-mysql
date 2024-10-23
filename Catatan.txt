@@ -40,3 +40,5 @@ maka jalankan dengan perintah
 php artisan serve --host 192.168.137.1 --port 8000
 localhost:8000 tidak dikenali dari komputer lain
 untuk mengetahui ip di atas dari windows cmd ketik perintah ipconfig
+
+Silahkan dicoba dari postman dengan ketik http://192.168.137.1:8000/api/dht11
