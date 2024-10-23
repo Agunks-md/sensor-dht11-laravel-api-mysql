@@ -21,7 +21,7 @@
         table {
             width: 100%;
             border-collapse: collapse;
-            margin: 20px 0;
+            margin: 10px 0;
             background-color: #fff;
             box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
         }
@@ -43,7 +43,7 @@
 
         @media (max-width: 400px) {
             th, td {
-                padding: 6px;
+                padding: 4px;
                 font-size: 10px;
             }
         }
