@@ -25,6 +25,7 @@ PENGUJIAN DARI CMD WINDOWS TANPA Postman
 ----------------------------------------
 1. STORE
    curl -X POST "http://localhost:8000/api/dht11" -H "Content-Type: application/json" -d "{\"temperature\": 25, \"humidity\": 70}"
+   curl -X POST "http://192.168.236.57:8000/api/dht11" -H "Content-Type: application/json" -d "{\"temperature\": 25, \"humidity\": 70}"
 2. UDPATE
    curl -X PATCH "http://localhost:8000/api/dht11/2" -H "Content-Type: application/json" -d "{\"temperature\": 29, \"humidity\": 65}"
 3. DELETE 
@@ -37,7 +38,8 @@ CATATAN
 ----------------------------------------
 Jika ingin akses laravel localhost:8000/api/dht11 dari komputer lain
 maka jalankan dengan perintah 
-php artisan serve --host 192.168.137.1 --port 8000
+php artisan serve --host 192.168.236.57 --port 8000
+php artisan serve --host 192.168.4.196 --port 8000
 localhost:8000 tidak dikenali dari komputer lain
 untuk mengetahui ip di atas dari windows cmd ketik perintah ipconfig
 
