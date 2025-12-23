@@ -247,7 +247,7 @@
                 </div>
                 <div>
                     <h3 class="text-xl font-bold mb-4">Kontak</h3>
-                    <p class="text-blue-200">Email: info@smkn1tuahkemuning.sch.id</p>
+                    <p class="text-blue-200">Email: info@smartklinik.who.id</p>
                     <p class="text-blue-200">Telepon: (021) 1234-5678</p>
                     <p class="text-blue-200">Alamat: Jalan Lintas Timur Km. 293 Selensen Kec. Kemuning.</p>
                 </div>
