@@ -62,7 +62,7 @@
                     </div>
                 </div>
                 <div class="bg-white rounded-lg shadow-md overflow-hidden border border-blue-100">
-                    <img src="{{ asset('img/foto2.png') }}" alt="Berita 1" class="w-full h-48 object-cover">
+                    <img src="{{ asset('img/foto2.jpg') }}" alt="Berita 1" class="w-full h-48 object-cover">
                     <div class="p-4">
                         <h3 class="font-bold text-xl mb-2 text-blue-700">Integritas IOT</h3>
                         <p class="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
@@ -70,7 +70,7 @@
                     </div>
                 </div>
                 <div class="bg-white rounded-lg shadow-md overflow-hidden border border-blue-100">
-                    <img src="{{ asset('img/gambar4.png') }}" alt="Berita 1" class="w-full h-48 object-cover">
+                    <img src="{{ asset('img/gambar4.jpg') }}" alt="Berita 1" class="w-full h-48 object-cover">
                     <div class="p-4">
                         <h3 class="font-bold text-xl mb-2 text-blue-700">Aplikasi berbasis Web Desktop Dan MObiles Apps</h3>
                         <p class="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
@@ -87,26 +87,26 @@
             <h2 class="text-3xl font-bold mb-6 text-blue-800">Galeri Foto</h2>
             <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
                 <div class="relative group">
-                    <img src="{{ asset('img/foto3.png') }}" alt="Galeri 1" class="w-full h-64 object-cover rounded-lg">
+                    <img src="{{ asset('img/foto3.jpeg') }}" alt="Galeri 1" class="w-full h-64 object-cover rounded-lg">
                     <div class="absolute inset-0 bg-blue-600 bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-lg flex items-center justify-center">
                         <span class="text-white text-lg font-bold">Lihat Foto</span>
                     </div>
                 </div>
                 <!-- Ulangi untuk foto lainnya -->
                 <div class="relative group">
-                    <img src="{{ asset('img/gambar4.png') }}" alt="Galeri 1" class="w-full h-64 object-cover rounded-lg">
+                    <img src="{{ asset('img/gambar4.jpg') }}" alt="Galeri 1" class="w-full h-64 object-cover rounded-lg">
                     <div class="absolute inset-0 bg-blue-600 bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-lg flex items-center justify-center">
                         <span class="text-white text-lg font-bold">Lihat Foto</span>
                     </div>
                 </div>
                 <div class="relative group">
-                    <img src="{{ asset('img/foto4.png') }}" alt="Galeri 1" class="w-full h-64 object-cover rounded-lg">
+                    <img src="{{ asset('img/foto4.jpg') }}" alt="Galeri 1" class="w-full h-64 object-cover rounded-lg">
                     <div class="absolute inset-0 bg-blue-600 bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-lg flex items-center justify-center">
                         <span class="text-white text-lg font-bold">Lihat Foto</span>
                     </div>
                 </div>
                 <div class="relative group">
-                    <img src="{{ asset('img/foto5.png') }}" alt="Galeri 1" class="w-full h-64 object-cover rounded-lg">
+                    <img src="{{ asset('img/foto5.jpeg') }}" alt="Galeri 1" class="w-full h-64 object-cover rounded-lg">
                     <div class="absolute inset-0 bg-blue-600 bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-lg flex items-center justify-center">
                         <span class="text-white text-lg font-bold">Lihat Foto</span>
                     </div>
@@ -115,49 +115,44 @@
             </div>
         </section>
 
-        <!-- Galeri Video -->
-        <section class="mb-12">
-            <h2 class="text-3xl font-bold mb-6 text-blue-800">Galeri Video</h2>
-            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-                <div class="relative group">
-                    <div class="aspect-w-16 aspect-h-9 rounded-lg overflow-hidden">
-                        <iframe src="https://www.youtube.com/embed/V1ctT_DDUk8" frameborder="0" allowfullscreen class="w-full h-full"></iframe>
-                    </div>
-                    <div class="absolute inset-0 bg-blue-600 bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-lg flex items-center justify-center">
-                        <span class="text-white text-lg font-bold">Lihat Video</span>
-                    </div>
-                </div>
-                
-                <!-- Ulangi untuk video lainnya -->
-                <div class="relative group">
-                    <div class="aspect-w-16 aspect-h-9 rounded-lg overflow-hidden">
-                        <iframe src="https://www.youtube.com/embed/QnjQMXHmL5Y" frameborder="0" allowfullscreen class="w-full h-full"></iframe>
-                    </div>
-                    <div class="absolute inset-0 bg-blue-600 bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-lg flex items-center justify-center">
-                        <span class="text-white text-lg font-bold">Lihat Video</span>
-                    </div>
-                </div>
-        
-                <div class="relative group">
-                    <div class="aspect-w-16 aspect-h-9 rounded-lg overflow-hidden">
-                        <iframe src="https://www.youtube.com/embed/V1ctT_DDUk8" frameborder="0" allowfullscreen class="w-full h-full"></iframe>
-                    </div>
-                    <div class="absolute inset-0 bg-blue-600 bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-lg flex items-center justify-center">
-                        <span class="text-white text-lg font-bold">Lihat Video</span>
-                    </div>
-                </div>
-        
-                <div class="relative group">
-                    <div class="aspect-w-16 aspect-h-9 rounded-lg overflow-hidden">
-                        <iframe src="https://yyy.com" frameborder="0" allowfullscreen class="w-full h-full"></iframe>
-                    </div>
-                    <div class="absolute inset-0 bg-blue-600 bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-lg flex items-center justify-center">
-                        <span class="text-white text-lg font-bold">Lihat Video</span>
-                    </div>
-                </div>
-            </div>
-        </section>
-        
+        <!-- Status & Monitoring Sensor IoT -->
+<section class="mb-12">
+    <h2 class="text-3xl font-bold mb-6 text-blue-800">
+        Status & Monitoring Sensor IoT
+    </h2>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <!-- Sensor Suhu -->
+        <div class="bg-white rounded-lg shadow-md p-6 border-l-4 border-blue-600">
+            <h3 class="text-xl font-bold text-blue-700 mb-2">Sensor Suhu</h3>
+            <p class="text-gray-600">Lokasi: Ruang Rawat Inap</p>
+            <p class="text-gray-600">Suhu: <span class="font-bold text-green-600">26°C</span></p>
+            <span class="inline-block mt-3 px-3 py-1 text-sm bg-green-100 text-green-700 rounded-full">
+                Status Normal
+            </span>
+        </div>
+
+        <!-- Sensor Asap -->
+        <div class="bg-white rounded-lg shadow-md p-6 border-l-4 border-yellow-500">
+            <h3 class="text-xl font-bold text-yellow-600 mb-2">Sensor Asap</h3>
+            <p class="text-gray-600">Lokasi: Ruang Farmasi</p>
+            <p class="text-gray-600">Kondisi: <span class="font-bold text-green-600">Aman</span></p>
+            <span class="inline-block mt-3 px-3 py-1 text-sm bg-green-100 text-green-700 rounded-full">
+                Tidak Terdeteksi
+            </span>
+        </div>
+
+        <!-- Sensor Api -->
+        <div class="bg-white rounded-lg shadow-md p-6 border-l-4 border-red-600">
+            <h3 class="text-xl font-bold text-red-600 mb-2">Sensor Api</h3>
+            <p class="text-gray-600">Area: Seluruh Klinik</p>
+            <p class="text-gray-600">Status: <span class="font-bold text-green-600">Aman</span></p>
+            <span class="inline-block mt-3 px-3 py-1 text-sm bg-green-100 text-green-700 rounded-full">
+                Tidak Ada Api
+            </span>
+        </div>
+    </div>
+</section>
 
         <!-- Agenda -->
         <section class="mb-12">
