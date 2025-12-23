@@ -15,6 +15,7 @@ use App\Http\Controllers\OrderController;
 use App\Http\Controllers\PelajaranController;
 use App\Http\Controllers\PengumumanController;
 use App\Http\Controllers\PerkiraanController;
+use App\Http\Controllers\IoTController;
 
 use App\Models\Dht11_model;
 
@@ -69,4 +70,9 @@ Route::resource('order', OrderController::class);
 
 
 
+
+// -----------------------------
+// IoT Monitoring Dashboard
+// -----------------------------
+Route::get('/iot/monitoring', [IoTController::class, 'index'])->name('iot.monitoring');
 
