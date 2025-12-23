@@ -18,7 +18,7 @@
                 <h1 class="text-2xl font-bold">Smart Clinic IoT 4.0</h1>
                 <div class="hidden md:flex space-x-6">
                     <a href="#" class="hover:text-blue-200">Beranda</a>
-                    <a href="#" class="hover:text-blue-200">Galeri</a>
+                    <a href="#" class="hover:text-blue-200">Panel</a>
                     <a href="#" class="hover:text-blue-200">Agenda</a>
                     <a href="#" class="hover:text-blue-200">Kontak</a>
                     <a href="{{ route('sensor') }}" class="hover:text-blue-200">IoT</a>
