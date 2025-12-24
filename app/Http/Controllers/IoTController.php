@@ -71,6 +71,15 @@ class IoTController extends Controller
             ],
         ]);
     }
+
+    /**
+     * Halaman test API untuk pemula (tanpa Postman).
+     * Form sederhana untuk kirim data sensor secara manual.
+     */
+    public function testAPI()
+    {
+        return view('iot.test-api');
+    }
 }
 
 

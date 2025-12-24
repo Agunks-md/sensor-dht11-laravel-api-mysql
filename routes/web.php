@@ -75,4 +75,5 @@ Route::resource('order', OrderController::class);
 // IoT Monitoring Dashboard
 // -----------------------------
 Route::get('/iot/monitoring', [IoTController::class, 'index'])->name('iot.monitoring');
+Route::get('/iot/test-api', [IoTController::class, 'testAPI'])->name('iot.test-api'); // Halaman test API lokal
 
